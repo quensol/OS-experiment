@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BackUpQue</class>
+ <widget class="QWidget" name="BackUpQue">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>621</width>
+    <height>424</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTableWidget" name="backupqueue">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>561</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>561</width>
+     <height>341</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget
+{
+border: 1px solid #d0d0d0;
+border-radius: 5px;
+}
+
+QHeaderView
+{
+border: none;
+font: 9pt &quot;微软雅黑&quot;;
+}</string>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>103</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>进程名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>优先权级</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>运行时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>主存占用</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;等线&quot;;</string>
+   </property>
+   <property name="text">
+    <string>后备队列</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refresh">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{ 
+background:#00b6fa; 
+color:white;
+border:0px;
+border-radius:3px; 
+font: 20px &quot;微软雅黑&quot;;
+}
+
+QPushButton:hover{ background:#22aefa; }
+</string>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

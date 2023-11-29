@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>Image/bg.jpg</file>
+        <file>Image/TurnMoveIn.png</file>
+        <file>Image/Save.png</file>
+        <file>Image/waiting.gif</file>
+        <file>Image/os.png</file>
+        <file>Image/switch_closed.png</file>
+        <file>Image/switch_opened.png</file>
+        <file>Image/os.ico</file>
+        <file>Image/pattern.net.png</file>
+    </qresource>
+</RCC>
